@@ -11,4 +11,7 @@ if (userAge >= 18 && userSubscribe === true) {
     console.log('the user is younger than 18 and not subscribed')
 } else {
     console.log('an error has occured!')
-}
+};
+
+userAge = ["19", "23", "42", "15", "10", "27"];
+userSubscribe = [true, false, true, true, false, false];
